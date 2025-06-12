@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: Arial, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.game-container {
+    text-align: center;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.choices button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.choices img {
+    width: 100px;
+    height: 100px;
+}
+
+.computer-move, .result {
+    margin: 10px 0;
+    font-size: 18px;
+}
